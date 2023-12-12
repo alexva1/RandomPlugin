@@ -1,0 +1,12 @@
+{
+	"name": "Random Plugin",
+	"author": "RandomForest",
+	"version": "1.0.0",
+	"minVersion": "1.128.3",
+	"supportedVersion": "1.128.3",
+	"basePackage": "com.RandomForest",
+	"features": [
+		"com.RandomForest.behaviours.BeheChanger",
+		"com.RandomForest.behaviours.AntiPetPush"
+	]
+}
