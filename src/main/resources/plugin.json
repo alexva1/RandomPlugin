@@ -8,5 +8,7 @@
 	"features": [
 		"com.RandomForest.behaviours.BeheChanger",
 		"com.RandomForest.behaviours.AntiPetPush"
-	]
+	],
+	"download": "https://github.com/alexva1/RandomPlugin/blob/main/releases/RandomPlugin.jar",
+	"update": "https://github.com/alexva1/RandomPlugin/blob/main/src/main/resources/plugin.json"
 }
