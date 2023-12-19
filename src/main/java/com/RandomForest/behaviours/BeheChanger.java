@@ -139,6 +139,7 @@ public class BeheChanger implements Behavior, Configurable<BeheChanger.Config> {
             boolean beheNear = checkBeheNear();
 
             if (!isBeheNear && beheNear) {
+                workingMap.setValue(hero.getMap().getId());
                 isBeheNear = beheNear;
             } else if (isBeheNear && !beheNear) {
                 isBeheNear = beheNear;
@@ -146,13 +147,13 @@ public class BeheChanger implements Behavior, Configurable<BeheChanger.Config> {
             }
             if (pet.isActive()) {
                 if (!isBeheOnMap && beheOnMap) {
+                    workingMap.setValue(hero.getMap().getId());
                     isBeheOnMap = beheOnMap;
                 } else if (isBeheOnMap && !beheOnMap) {
                     isBeheOnMap = beheOnMap;
                     rotateMap();
                 }
             }
-
         }
     }
 
