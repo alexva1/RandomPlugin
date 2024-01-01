@@ -28,6 +28,11 @@
             <artifactId>darkbot-common</artifactId>
             <version>0.8.2</version>
         </dependency>
+        <dependency>
+            <groupId>eu.darkbot</groupId>
+            <artifactId>DarkBot</artifactId>
+            <version>6d026357cb</version>
+        </dependency>
     </dependencies>
 
     <build>
