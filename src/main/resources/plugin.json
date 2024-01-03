@@ -1,14 +1,14 @@
 {
 	"name": "Random Plugin",
 	"author": "RandomForest",
-	"version": "1.0.2",
-	"minVersion": "1.128.3",
-	"supportedVersion": "1.128.3",
+	"version": "1.0.3",
+	"minVersion": "1.129",
+	"supportedVersion": "1.129",
 	"basePackage": "com.RandomForest",
 	"features": [
 		"com.RandomForest.behaviours.BeheChanger",
 		"com.RandomForest.behaviours.AntiPetPush"
-		],
+	],
 	"download": "https://github.com/alexva1/RandomPlugin/blob/main/releases/RandomPlugin.jar",
 	"update": "https://github.com/alexva1/RandomPlugin/blob/main/src/main/resources/plugin.json"
 }

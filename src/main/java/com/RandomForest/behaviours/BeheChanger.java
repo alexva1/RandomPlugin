@@ -47,7 +47,7 @@ public class BeheChanger implements Behavior, Configurable<BeheChanger.Config> {
     protected final ConfigSetting<Map<String, NpcInfo>> npcTable;
 
     // Behemoth info found on nptTable
-    protected final NpcInfo beheInfo;
+    protected NpcInfo beheInfo;
 
     // True if behemoth is on map
     protected boolean isBeheOnMap;
@@ -113,6 +113,8 @@ public class BeheChanger implements Behavior, Configurable<BeheChanger.Config> {
     @Override
     public void onTickBehavior() {
         pet.setEnabled(true);
+
+        this.beheInfo = npcTable.getValue().get("\\\\ Mindfire Behemoth //");
 
         tickDrawFire();
         tickCheckBehe();
